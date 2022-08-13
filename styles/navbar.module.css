@@ -1,0 +1,28 @@
+.navbar {
+    grid-column: 2/6;
+    display: flex;
+    gap: 2rem;
+    justify-self: center;
+    align-items: center;
+    position: fixed;
+    padding: 2rem 0;
+}
+
+.link {
+    text-decoration: none;
+    text-transform: capitalize;
+    font-weight: 500;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 800px) {
+    .navbar {
+        display: none;
+        grid-column: 1/-1;
+    }
+}

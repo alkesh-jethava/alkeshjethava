@@ -1,83 +1,31 @@
-.wrapper{
+.homeContent{
+    grid-row-start: 2;
+    grid-column-start: 2;
     width: 100vw;
-    height: 100vh;
-    padding: 3rem 20rem 0 20rem;
+    margin: auto;
 }
 
-.headerWrapper{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.bodyWrapper{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 5rem;
-    margin-top: 3rem;
-}
-
-.resumeButton{
-    background-color: #F9A826;
-    padding: 0rem 1rem;
-    border-radius: .5rem;
-    transition: all .3s;
-    border: 0.1rem solid transparent;
-    width: 6rem;
-}
-
-.resumeButton:hover{
-    background-color: transparent;
-    padding: 0rem 1rem;
-    cursor: pointer;
-    color: #28282B;
-    border: 0.1rem solid #F9A826;
-}
-
-.resumeButton:hover p{
-    color: #28282B;
-}
-
-.resumeButton p{
+.containerBrand{  
+    font-size: 3rem;
     text-transform: capitalize;
-    line-height: 0%;
-    color: #FDFBF9;
-    transition: all .3s;
-}
+    font-weight: 600;
+    text-align: center;
+}   
 
-@media (max-width: 1500px) {
-    .wrapper{
-        padding: 5rem 10rem 0 10rem;
-    }
-}
-
-@media (max-width: 1200px) {
-    .wrapper{
-        padding: 3rem 6rem 0 6rem;
-    }
-}
+.brandDescription{  
+    font-size: 1rem;
+    text-transform: capitalize;
+    text-align: center;
+    margin-top: 1rem;
+} 
 
 @media (max-width: 800px) {
-    .wrapper{
-        padding: 2rem 3rem 0 3rem;
-    }
-    .headerWrapper{
-        display: block;
-        align-items: center;
-    }
-    .headerWrapper h1{
-        text-align: center;
-    }
-    .bodyWrapper{
-        display: block;
-        margin-top: 10rem;
-    }
-    .bodyWrapper h1{
-       text-align: center;
-       font-size: 1rem;
-    }
-    .resumeButton{
-        display: none;
-    }
+    .containerBrand{  
+        font-size: 2rem;
+    }   
+
+    .brandDescription{  
+        font-size: .8rem;
+        margin-top: .5rem;
+    } 
 }
