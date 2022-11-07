@@ -1,0 +1,173 @@
+[
+    {   
+        "id": 1,
+        "companyName": "manektech",
+        "joiningDate": "november, 2022",
+        "endDate": null,
+        "isPresent": true,
+        "work": [
+            {
+                "id":1,
+                "type": ["application"],
+                "name": "H&M",
+                "title": "Alshaya Group (e-commerce application)",
+                "description": "H&M is a multinational clothing company based in Sweden. which delivers branded clothes to overall worlds.",
+                "appLink": {
+                    "android": "",
+                    "ios": ""
+                }
+            },
+            {
+                "id":2,
+                "type": ["application"],
+                "name": "Kcal",
+                "title": "food delivery applicatipn",
+                "description": "Kcal is food delivery application which cares about humans health care, it provides various kind of Meal Plan with user’s Diet Plan. and health data from apple health.",
+                "appLink": {
+                    "android": "",
+                    "ios": ""
+                }
+            },
+            {
+                "id":3,
+                "type": ["application"],
+                "name": "Moments",
+                "title": "food delivery applicatipn",
+                "description": "Moments is Food Delivery application with checkout functionality, created app from scretch.",
+                "appLink": {
+                    "android": "",
+                    "ios": ""
+                }
+            },
+            {
+                "id":4,
+                "type": ["application"],
+                "name": "Bipolar Buddy",
+                "title": "Health application",
+                "description": "Bipolar Buddy is Health application which is measure user's health by getting users informations.",
+                "appLink": {
+                    "android": "",
+                    "ios": ""
+                }
+            },
+            {
+                "id":4,
+                "type": ["application"],
+                "name": "Rand Water - save water app",
+                "title": "Water service application",
+                "description": "Rand water app is used for water services like leakage in home or area, create a report for service etc.",
+                "appLink": {
+                    "android": "https://play.google.com/store/apps/details?id=com.randwater&hl=en_SG",
+                    "ios": "https://apps.apple.com/us/app/rand-water-save-water-app/id6443777263"
+                }
+            }
+        ]
+        
+    },
+    {   
+        "id": 2,
+        "companyName": "the algorithm",
+        "joiningDate": "October, 2020",
+        "endDate": "November, 2021",
+        "isPresent": false,
+        "work": [
+            {
+                "id":1,
+                "type": ["application"],
+                "name": "GaonConnection",
+                "title": "Media platform applicatipn",
+                "description": "GaonConnection is India’s biggest rural media platform, a two-way street that takes information to knowlegde-starved rural communities and brings information about everything from problems to role models from india-dark areas to urban india. ",
+                "appLink": {
+                    "android": "https://play.google.com/store/apps/details?id=com.gaonconnection.app&hl=en&gl=US",
+                    "ios": "https://apps.apple.com/in/app/gaon-connection/id1549234509"
+                }
+            },
+            {
+                "id":2,
+                "type": ["application"],
+                "name": "The Slow",
+                "title": "Enteretainment applicatipn (music and video)",
+                "description": "The Slow app is a content delivery application like Audio, Video and Text.",
+                "appLink": {
+                    "android": "https://play.google.com/store/apps/details?id=com.turnslow.theslowapp",
+                    "ios": "https://apps.apple.com/us/app/the-slow-app/id1554047983"
+                }
+            },
+            {
+                "id":3,
+                "type": ["application"],
+                "name": "schoolsOut",
+                "title": "Kid pick-up service applicatipn",
+                "description": "SchoolsOut brings to your community the power to manage your kid’s pick-up schedule and talk to your school directly from your app.",
+                "appLink": {
+                    "android": "https://play.google.com/store/apps/details?id=in.thealgo.schoolsout",
+                    "ios": "https://apps.apple.com/in/app/schoolsout/id1527130168"
+                }
+            },
+            {
+                "id":4,
+                "type": ["application, website"],
+                "name": "ClinIQ",
+                "title": "Clinic management platform",
+                "description": "ClinIQ is a Clinic management platform in which manage the Patients, Doctores, Receptionit, chech-in/chech-out system as well as appointment schedule.",
+                "appLink": {
+                    "android": "",
+                    "ios": ""
+                }
+            },
+            {
+                "id":5,
+                "type": ["application, website"],
+                "name": "BX",
+                "title": "Kid behaviour teaching applicatipn ",
+                "description": "BX application is for that individuales who have skill deficits and interfering problem behaviours.",
+                "appLink": {
+                    "android": "",
+                    "ios": ""
+                }
+            }
+        ]
+    },
+    {   
+        "id": 3,
+        "companyName": "Neoyug - Internship",
+        "joiningDate": "July, 2020",
+        "endDate": "October, 2020",
+        "isPresent": false,
+        "work": [
+            {
+                "id":1,
+                "type": ["application"],
+                "name": "baby gender prediction",
+                "title": null,
+                "description": "Baby Gender Prediction application is for predict the baby is baby girl or baby boy based on the algorithm.",
+                "appLink": {
+                    "android": "",
+                    "ios": ""
+                }
+            },
+            {
+                "id":2,
+                "type": ["website"],
+                "name": "TeamHR",
+                "title": "admin panel",
+                "description": "TeamHR is a Dashboard for employee in-out status and work management.",
+                "appLink": {
+                    "android": "",
+                    "ios": ""
+                }
+            },
+            {
+                "id":3,
+                "type": ["application"],
+                "name": "Ecomvendor",
+                "title": "Kid pick-up service applicatipn",
+                "description": "Ecomvendor is a e-commerce application.",
+                "appLink": {
+                    "android": "",
+                    "ios": ""
+                }
+            }
+        ]
+    }
+]
