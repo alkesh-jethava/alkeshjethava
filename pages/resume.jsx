@@ -28,7 +28,7 @@ const Resume = () => {
             {
               experienceData?.map?.((item,index) => {
                 return (
-                  <div className="experience-item">
+                  <div className="experience-item" key={index}>
                     <div className="label-wrapper">
                       <p className="company-label">{index+1}. {item.companyName}</p>  
                       <div className="label-right-wrapper">
@@ -39,7 +39,7 @@ const Resume = () => {
                     {
                       item?.work?.map((workItem, workIndex) => {
                         return (
-                          <div className="work-item-wrapper">
+                          <div className="work-item-wrapper" key={workIndex}>
                             <div className="work-item-name-wrapper">
                               <p className="name">{workItem?.name}</p>
                               <p className="title">{workItem?.title}</p>
